@@ -1,0 +1,8 @@
+{
+  "/api/[[...route]]/route": "app/api/[[...route]]/route.js",
+  "/api/auth/[kindeAuth]/route": "app/api/auth/[kindeAuth]/route.js",
+  "/(public)/preview/[documentId]/resume/page": "app/(public)/preview/[documentId]/resume/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(home)/dashboard/page": "app/(home)/dashboard/page.js",
+  "/(home)/dashboard/document/[documentId]/edit/page": "app/(home)/dashboard/document/[documentId]/edit/page.js"
+}

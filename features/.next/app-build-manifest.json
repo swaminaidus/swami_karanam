@@ -1,0 +1,41 @@
+{
+  "pages": {
+    "/(landingPage)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(landingPage)/page.js"
+    ],
+    "/(landingPage)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(landingPage)/layout.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(home)/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(home)/dashboard/page.js"
+    ],
+    "/(home)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(home)/layout.js"
+    ],
+    "/(home)/dashboard/document/[documentId]/edit/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(home)/dashboard/document/[documentId]/edit/page.css",
+      "static/chunks/app/(home)/dashboard/document/[documentId]/edit/page.js"
+    ],
+    "/(public)/preview/[documentId]/resume/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(public)/preview/[documentId]/resume/page.js"
+    ]
+  }
+}
